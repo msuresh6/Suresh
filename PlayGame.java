@@ -181,7 +181,8 @@ public class PlayGame extends JPanel implements ActionListener, KeyListener{
 		if(e.getKeyCode() == KeyEvent.VK_ENTER) {
 			play = false;
 			score = 0;
-			totalBricks = 21;
+			totalBricks = 7;
+			brickCount = 1;
 			playerX = 220;
 			ballPosX = 300;
 			ballPosY = 528;
